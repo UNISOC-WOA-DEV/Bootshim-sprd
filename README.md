@@ -1,7 +1,7 @@
 # Bootshim-sprd
 Used for booting UEFI firmware on SPRD devices
 
-[中文文档](https://github.com/orgs/UNISOC-WOA-DEV/BootShim-sprd/README_zh.md)
+[中文文档](https://github.com/UNISOC-WOA-DEV/BootShim-sprd/README_zh.md)
 
 ## Overview
 Bootshim is a small bootstrap program that enables UEFI firmware to be booted on UNISOC (SPRD) devices via the existing bootloader (cboot/zboot). It acts as a trampoline that relocates the UEFI image to its expected base address and then transfers control to it.
